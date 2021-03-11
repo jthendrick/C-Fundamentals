@@ -17,6 +17,12 @@ namespace Conditionals
 
             bool isAdult = (age > 17) ? true : false;
             Console.WriteLine("Age is over 17:" + isAdult);
+
+            int numOne = 10;
+            int numTwo = (numOne == 10) ? 30 : 20;
+            Console.WriteLine(numTwo);
+
+            Console.WriteLine((numTwo == 30) ? "true" : "False");
         }
     }
 }
